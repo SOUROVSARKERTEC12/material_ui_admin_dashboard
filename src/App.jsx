@@ -8,6 +8,7 @@ import Team from "./scenes/team/Team.jsx";
 import Contacts from "./scenes/contacts/Contacts.jsx"
 import Invoices from "./scenes/invoices/Invoices.jsx";
 import Form from "./scenes/form/Form.jsx";
+import Calendar from "./scenes/calendar/Calendar.jsx";
 
 function App() {
     const [theme, colorMode] = useMode()
@@ -25,6 +26,7 @@ function App() {
                             <Route path="/contacts" element={<Contacts />} />
                             <Route path="/invoices" element={<Invoices />} />
                             <Route path="/form" element={<Form />} />
+                            <Route path="/calendar" element={<Calendar />} />
                         </Routes>
                     </main>
                 </div>
